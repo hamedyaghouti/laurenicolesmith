@@ -1,0 +1,86 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #342d33;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  font-family: "Inter var", sans-serif;
+}
+
+p {
+  line-height: 1.728em;
+}
+
+a {
+  color: #83558a !important;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2.074em;
+  font-weight: 700;
+}
+
+@media(min-width: 850px) {
+  .container-lg {
+    max-width: 800px ;
+  }
+}
+
+.about {
+  margin-top: 100px;
+}
+
+@media(max-width: 530px) {
+    .about {
+        margin-top: 40px;
+    }
+}
+
+.bio {
+  max-width: 585px;
+  padding-top: 15px;
+  margin-bottom: 55px;
+}
+
+.bio h1 {
+  margin-bottom: 30px;
+}
+
+.bio p {
+  padding: 0 5.805em 1em 0;
+}
+
+.image {
+    width: 435px;
+}
+
+img.shape-top {
+  width: 30%;
+}
+
+img.shape-bot {
+  width: 20%;
+  top: 25%;
+  right: 0;
+}
+
+.contact a {
+  color: #342d33 !important;
+  font-size: 1.728em;
+  margin-right: 1.2em;
+}
+
+.contact a i {
+    transition: all 0.3s;
+}
+
+.contact a i:hover {
+    transform: translateY(-10px);
+}
